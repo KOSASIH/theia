@@ -21,6 +21,7 @@
   - add `isSafeToShutDown()` - replaces `canUnload()`.
   - add `setSafeToShutDown()` - ensures that next close event will not be prevented.
   - add `reload()` - to allow different handling in Electron and browser.
+- [plugin] removed the application prop `resolveSystemPlugins`, builtin plugins should now be resolved at build time [#10353](https://github.com/eclipse-theia/theia/pull/10353)
 
 ## v1.20.0 - 11/25/2021
 
